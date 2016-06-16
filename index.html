@@ -24,7 +24,64 @@
     </head>
     <body>
 
+      <header class="container text-center">
+        <h1>Tic Tac Toe</h1>
+        <h3 id="message"></h3>
+      </header>
 
+      <main class="container text-center game">
+
+        <section class="row">
+
+          <div class="col-xs-4 col-md-4 col-lg-4 box" id="box1" >
+            <div class="square" onclick="nextMove(this)" id="s1"></div>
+          </div>
+
+          <div class="col-xs-4 col-md-4 col-lg-4 box" id="box2" >
+            <div class="square" onclick="nextMove(this)" id="s2"></div>
+          </div>
+
+          <div class="col-xs-4 col-md-4 col-lg-4 box" id="box3" >
+            <div class="square" onclick="nextMove(this)" id="s3"></div>
+          </div>
+
+        </section>
+
+        <section class="row">
+
+          <div class="col-xs-4 col-md-4 col-lg-4 box" id="box4" >
+            <div class="square" onclick="nextMove(this)" id="s4"></div>
+          </div>
+
+          <div class="col-xs-4 col-md-4 col-lg-4 box" id="box5" >
+            <div class="square" onclick="nextMove(this)" id="s5"></div>
+          </div>
+
+          <div class="col-xs-4 col-md-4 col-lg-4 box" id="box6" >
+            <div class="square" onclick="nextMove(this)" id="s6"></div>
+          </div>
+
+        </section>
+
+        <section class="row">
+
+          <div class="col-xs-4 col-md-4 col-lg-4 box" id="box7" >
+            <div class="square" onclick="nextMove(this)" id="s7"></div>
+          </div>
+
+          <div class="col-xs-4 col-md-4 col-lg-4 box" id="box8" >
+            <div class="square" onclick="nextMove(this)" id="s8"></div>
+          </div>
+
+          <div class="col-xs-4 col-md-4 col-lg-4 box" id="box9" >
+            <div class="square" onclick="nextMove(this)" id="s9"></div>
+          </div>
+
+        </section>
+
+        <button class="btn btn-default btn-lg" onclick="startGame()">Start Over</button>
+
+      </main>
 
     </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
