@@ -12,4 +12,6 @@ Practicing functional programming.
 
 ## Usage
 
-Check out the [preview] (http://htmlpreview.github.io/?https://github.com/eoff93/tic-tac-toe/blob/master/index.html)
+Check out the [preview] (http://htmlpreview.github.io/?https://github.com/eoff93/tic-tac-toe/blob/master/index.html).
+
+Or check it out on [Codepen] (http://codepen.io/eoff/pen/qZbrjJ).
